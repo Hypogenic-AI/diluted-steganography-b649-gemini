@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/workspaces/diluted-steganography-b649-gemini/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/workspaces/diluted-steganography-b649-gemini/literature_review.md",
+        "resources_catalog": "/workspaces/diluted-steganography-b649-gemini/resources.md",
+        "papers_dir": "/workspaces/diluted-steganography-b649-gemini/papers",
+        "datasets_dir": "/workspaces/diluted-steganography-b649-gemini/datasets",
+        "code_dir": "/workspaces/diluted-steganography-b649-gemini/code"
+      },
+      "log_file": "/workspaces/diluted-steganography-b649-gemini/logs/resource_finder_gemini.log",
+      "transcript_file": "/workspaces/diluted-steganography-b649-gemini/logs/resource_finder_gemini_transcript.jsonl",
+      "elapsed_time": 480.1063585281372
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 476.95638251304626,
+      "log_file": "/workspaces/diluted-steganography-b649-gemini/logs/execution_gemini.log",
+      "transcript_file": "/workspaces/diluted-steganography-b649-gemini/logs/execution_gemini_transcript.jsonl"
+    }
+  },
+  "work_dir": "/workspaces/diluted-steganography-b649-gemini"
+}

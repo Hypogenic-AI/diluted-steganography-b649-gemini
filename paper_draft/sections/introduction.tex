@@ -1,0 +1,23 @@
+\section{Introduction}
+\label{sec:introduction}
+
+Steganography in AI-generated text has emerged as a dual-use technology: it serves as a powerful tool for watermarking to ensure provenance, yet it also provides a sophisticated vector for stealthy data exfiltration. As Large Language Models (LLMs) like \gpt and \textsc{Claude} generate an increasing share of the global digital corpus, the ability to hide signals that are indistinguishable from natural language becomes a paramount concern for AI safety and digital forensics. 
+
+{\bf Why does signal dilution matter?}
+While traditional steganography focuses on maximizing capacity, modern forensic challenges often involve "diluted" signals—where information is sparse and tied to rare, localized events. For example, a hidden message might only be encoded following specific "trigger words" that appear infrequently. Detecting these "needles in a haystack" is theoretically more challenging for zero-shot LLM-based detectors, as the statistical signal is masked by the sheer volume of non-signal-carrying text.
+
+{\bf What is the gap in existing work?}
+Existing research in neural linguistic steganography has primarily focused on high-density methods that alter the probability distribution of every generated token \cite{ziegler2019neural, lu2024llmstega}. Even advanced techniques like embedding-space steganography \cite{westphal2026hide} or fine-tuned Trojan behaviors \cite{meier2025trojanstego} often assume a relatively high frequency of signal-carrying tokens. The "dilution threshold"—the point where a signal becomes so sparse that it is statistically and cognitively invisible to a general-purpose LLM—remains unexplored.
+
+{\bf Our approach.}
+In this work, we introduce \ours, a framework to systematically investigate the "Dilution Factor" (frequency of signal-carrying tokens) and its impact on LLM detection and extraction performance. We employ a trigger-word-based encoding rule where a secret bit is hidden in the first letter of the word immediately following a trigger token. By selecting trigger words with varying frequencies in the \wikitext dataset—ranging from 7.8\% ("the") to 0.076\% ("however")—we create a spectrum of signal dilution. We generate high-quality \stego using \gptmini to replace words while maintaining fluency and respecting the encoding constraint.
+
+{\bf Key results.}
+Our experiments with \gpt reveal a striking disparity between detection and extraction capabilities. \gpt exhibits {\bf zero discriminative power} for detecting \stego, returning a 0\% True Positive Rate (\TPR) across all dilution levels, even when provided with hints about the potential presence of a signal. However, when provided with the specific encoding rule, the model achieves $\sim$71\% extraction accuracy for single bits in very sparse signals, but its performance drops to near-chance levels ($\BER > 0.5$) for denser signals. This indicates that the primary bottleneck for LLM-based steganography is not the complexity of the rule, but the systematic tracking of patterns across long context windows.
+
+Our main contributions are summarized as follows:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item We propose a trigger-word dilution framework for evaluating the stealth of sparse steganographic signals in LLM-generated text.
+    \item We demonstrate that diluted steganography is effectively invisible to zero-shot LLM detection, even at relatively high signal densities.
+    \item We identify "sequence complexity" as a critical bottleneck for automated extraction, suggesting that sparsity can be leveraged to enhance stealth while maintaining recoverability for short messages.
+\end{itemize}

@@ -1,0 +1,439 @@
+You are an academic paper writer. Generate a complete NEURIPS style paper
+based on the experiment results provided.
+
+════════════════════════════════════════════════════════════════════════════════
+                         IMPORTANT: BEFORE YOU START
+════════════════════════════════════════════════════════════════════════════════
+
+Before writing any content, you MUST complete these steps:
+
+1. READ THE SKILL: Review the paper-writer skill at .gemini/skills/paper-writer/SKILL.md
+2. READ THE STYLE GUIDE: Study templates/paper_writing/lab_style_guide.md carefully
+3. REVIEW EXAMPLES: Browse paper_examples/ for formatting and language patterns:
+   - Look at sections/1.introduction.tex for language style
+   - Look at tables/*.tex for table formatting
+   - Look at commands/*.tex for macro usage
+4. VERIFY COMMAND TEMPLATES: Command templates (math.tex, general.tex, macros.tex) are pre-copied to paper_draft/commands/
+
+CRITICAL: Reference example papers for FORMATTING and LANGUAGE STYLE only.
+Do NOT copy content, phrasing, or narrative structure from the example papers.
+The examples are in a different research domain - focus only on presentation style.
+
+════════════════════════════════════════════════════════════════════════════════
+                            EXPERIMENT REPORT
+════════════════════════════════════════════════════════════════════════════════
+
+# REPORT: Diluted Steganography in LLMs
+
+## 1. Executive Summary
+This research investigates the visibility and recoverability of diluted steganography in Large Language Models (LLMs). We find that LLMs (GPT-4o) exhibit **zero discriminative power** for detecting steganographic messages hidden in word-trigger patterns, even at high density (7.8% of tokens). However, when provided with the specific encoding rule, LLMs can extract bits with moderate accuracy for sparse signals (~71% for 1-bit cases) but fail significantly as the signal becomes denser (BER &gt; 0.5 for 10-bit cases). This suggests that &#34;dilution&#34; effectively acts as a stealth defense against LLM-based detection, while &#34;sequence complexity&#34; acts as a defense against automated extraction.
+
+## 2. Research Question &amp; Motivation
+**Question:** How does signal dilution (trigger-word sparsity) affect an LLM&#39;s ability to detect and extract steganographic messages?
+**Motivation:** As AI-generated content grows, the ability to hide stealthy signals in large corpora becomes a significant security concern. Understanding the &#34;dilution threshold&#34; for detection is critical for AI safety and forensics.
+
+## 3. Methodology
+- **Encoding Rule:** A secret bit $b \in \{0, 1\}$ is hidden in the first letter of the word following a **trigger word**.
+  - $b=0 \implies$ Next word starts with `[a-m]`
+  - $b=1 \implies$ Next word starts with `[n-z]`
+- **Dilution Levels (Trigger Words):**
+  - Dense: &#34;the&#34; (~7.8% frequency)
+  - Medium: &#34;of&#34; (~3.3% frequency)
+  - Sparse: &#34;is&#34; (~0.55% frequency)
+  - Very Sparse: &#34;however&#34; (~0.076% frequency)
+- **Data Generation:** Used WikiText-103 samples. Generated stego-text using `gpt-4o-mini` to replace words while maintaining fluency and respecting the encoding constraint.
+- **Evaluation:** Evaluated `gpt-4o` on detection (zero-shot and hint-based) and extraction (given the rule).
+
+## 4. Results
+### Detection Performance (True Positive Rate)
+| Level | ZS_TPR | Hint_TPR | Accuracy (Overall) |
+|-------|--------|----------|-------------------|
+| Dense | 0.0 | 0.0 | 50.0% |
+| Medium | 0.0 | 0.0 | 50.0% |
+| Sparse | 0.0 | 0.0 | 50.0% |
+| Very_Sparse | 0.0 | 0.0 | 50.0% |
+
+### Extraction Performance (Average Bit Error Rate)
+| Level | BER | Correct/Total Bits | Correct Ratio |
+|-------|-----|-------------------|---------------|
+| Dense | 0.60 | 4.1 / 10.4 | 39.4% |
+| Medium | 0.59 | 2.8 / 5.7 | 49.1% |
+| Sparse | 0.68 | 2.3 / 4.6 | 50.0% |
+| Very_Sparse | 0.50 | 0.71 / 1.0 | 71.0% |
+
+## 5. Analysis &amp; Discussion
+- **The &#34;Invisibility&#34; of Diluted Steganography:** GPT-4o was unable to detect any steganographic text, always predicting &#34;No&#34; even for dense signals (&#34;the&#34;). This suggests that steganographic drift, when mitigated by high-quality LLM-based word replacement, is practically imperceptible to current models&#39; zero-shot detection capabilities.
+- **The Complexity Bottleneck:** While the LLM could extract bits from sparse samples (71% accuracy for single bits), it failed to scale to longer bitstreams (Dense/Medium levels). This indicates that the bottleneck is not the *rule itself*, but the model&#39;s ability to **systematically track and verify patterns across a long context window**.
+- **Detection vs. Extraction:** There is a notable gap—the model can *sometimes* extract the signal when told exactly what to look for, but it never &#34;notices&#34; the signal on its own.
+
+## 6. Limitations
+- **Sample Size:** The dataset used (37 stego samples) is relatively small.
+- **Model Choice:** Only `gpt-4o` was used for evaluation. Other models (Claude, Llama) might have different performance profiles.
+- **Rule Simplicity:** The rule used ([a-m]/[n-z]) is very simple. More complex rules (e.g., parity of token IDs) might yield different results.
+
+## 7. Conclusions &amp; Next Steps
+Diluted steganography is an effective method for hiding information from LLMs. Even a dense signal like one bit after every &#34;the&#34; is invisible to the state-of-the-art GPT-4o model without fine-tuning or specialized detection probes. Future work should investigate whether fine-tuned models or mechanistic interpretability (linear probes on activations) can perform better than zero-shot prompting.
+
+
+════════════════════════════════════════════════════════════════════════════════
+                            RESEARCH PLAN
+════════════════════════════════════════════════════════════════════════════════
+
+# Research Plan: Diluted Steganography
+
+## Motivation &amp; Novelty Assessment
+
+### Why This Research Matters
+As data generation becomes cheaper and more prolific, the dilution of meaningful signals within large corpora is likely to become a significant issue. Steganography is often used to hide information, and current LLMs are quite good at detecting simple patterns. However, &#34;diluted&#34; signals—where the information is sparse and tied to rare events—might be much harder to detect. This has implications for AI safety (e.g., hidden instructions in training data) and digital forensics.
+
+### Gap in Existing Work
+Existing steganography research (e.g., LLM-Stega, Hide and Seek) focuses on high-capacity or embedding-level hiding. There is limited research on the &#34;dilution limit&#34;—the point where a signal becomes so sparse that it is indistinguishable from noise for a general-purpose LLM, even if the LLM is prompted to look for it.
+
+### Our Novel Contribution
+We systematically investigate the &#34;Dilution Factor&#34; (frequency of signal-carrying tokens) and its impact on LLM detection and extraction performance. We specifically look at trigger-word-based dilution, which is more realistic for &#34;needle-in-a-stack&#34; scenarios.
+
+### Experiment Justification
+- **Experiment 1 (Detection):** Tests if LLMs can identify the presence of a hidden message at various dilution levels. This establishes the &#34;visibility&#34; threshold.
+- **Experiment 2 (Extraction):** Tests if LLMs can recover the message when the rule is provided. This measures the &#34;recoverability&#34; under sparsity.
+
+---
+
+## Research Question
+How does signal dilution (specifically trigger-word-based sparsity) affect the ability of Large Language Models to detect and extract steganographic messages?
+
+## Hypothesis Decomposition
+1. **Detection Degradation:** The probability of an LLM correctly identifying steganographic text decreases as the dilution factor increases (i.e., as the trigger word becomes rarer).
+2. **Extraction Resilience:** If the rule is known, LLM extraction accuracy (Bit Error Rate) will remain relatively stable until extreme dilution levels where context windows or attention mechanisms might fail to link distant signal tokens.
+3. **Zero-shot vs. Few-shot:** Few-shot prompting will significantly improve detection of diluted signals compared to zero-shot, but will still struggle with high dilution.
+
+## Proposed Methodology
+
+### Approach
+We will use a &#34;Trigger-Word Steganography&#34; method. A secret bit is encoded in the properties of the word immediately following a &#34;trigger word&#34;. 
+- **Rule:** If bit is 0, the next word starts with [a-m]. If bit is 1, it starts with [n-z].
+- **Dilution:** Controlled by selecting trigger words of varying frequencies in the WikiText-103 dataset.
+    - Level 1 (Dense): Trigger = &#34;the&#34; (approx. 7% of tokens)
+    - Level 2 (Medium): Trigger = &#34;of&#34; (approx. 3% of tokens)
+    - Level 3 (Sparse): Trigger = &#34;which&#34; (approx. 0.5% of tokens)
+    - Level 4 (Very Sparse): Trigger = &#34;nevertheless&#34; or similar (approx. 0.01% of tokens)
+
+### Experimental Steps
+1. **Data Prep:** Extract samples from WikiText-103. Identify occurrences of target trigger words.
+2. **Encoding:** Generate &#34;Stego-Text&#34; by modifying the words following triggers to encode a random bitstream. Ensure the resulting text remains fluent (using an LLM to &#34;re-write&#34; or &#34;fill in&#34; while respecting the constraint).
+3. **Detection Baseline:** Use GPT-4o / Claude 3.5 Sonnet to detect stego-text vs. original text.
+4. **Extraction Baseline:** Use the same models to extract the bitstream given the trigger word and encoding rule.
+
+### Baselines
+- **Negative Control:** Original WikiText samples.
+- **Positive Control:** High-density steganography (e.g., every first letter of every word).
+
+### Evaluation Metrics
+- **Detection:** Accuracy, F1-score, False Positive Rate.
+- **Extraction:** Bit Error Rate (BER).
+- **Fluency:** Perplexity (using a local model like GPT-2 or a small Llama if available, or just qualitative LLM scoring).
+
+## Success Criteria
+- Successful completion of the &#34;Dilution vs. Performance&#34; curve for at least two major LLMs.
+- Identification of the &#34;Dilution Threshold&#34; where detection drops to near-chance levels.
+
+
+════════════════════════════════════════════════════════════════════════════════
+                          LITERATURE REVIEW
+════════════════════════════════════════════════════════════════════════════════
+
+# Literature Review: Diluted Steganography in Large Language Models
+
+## Research Area Overview
+Steganography in natural language processing (NLP) has evolved from simple rule-based methods (e.g., zero-width characters) to generative approaches that leverage the probabilistic nature of language models. Recent research focuses on &#34;generative steganography,&#34; where secret messages are embedded by subtly altering the probability distribution of generated tokens. The concept of &#34;diluted steganography&#34; or &#34;steganographic sparsity&#34; addresses scenarios where hidden messages are not present in every token but are dispersed (diluted) according to specific patterns (e.g., every $N$-th word or after specific trigger tokens).
+
+## Key Papers
+
+### 1. Hide and Seek in Embedding Space (2026)
+- **Authors**: Charles Westphal, K. Navaie, F. Rosas
+- **Key Contribution**: Introduces &#34;low-recoverability steganography&#34; using embedding-space geometry. It reduces the chance of a defender recovering the secret without the key by using hyperplane projections in the model&#39;s internal embedding space for bit-to-token mappings.
+- **Methodology**: Uses random hyperplanes in embedding space to partition tokens into &#34;buckets&#34; for secret bits.
+- **Detection**: Proposes mechanistic interpretability (linear probes on internal activations) as a superior detection signal compared to output-level distribution shifts (KL divergence, perplexity), which are often masked by fine-tuning drift.
+- **Relevance**: Directly addresses how modern LLMs can be fine-tuned to hide secrets and identifies the limitations of traditional steganalysis.
+
+### 2. GSDFuse (2025)
+- **Authors**: Kaibo Huang, Zipei Zhang, et al.
+- **Key Contribution**: Addresses &#34;extreme steganographic sparsity&#34; in multi-interaction dialogues (social media).
+- **Methodology**: Uses multi-dimensional weak signals and hierarchical multi-modal feature fusion to detect dispersed steganographic content.
+- **Relevance**: Provides a framework for detecting &#34;diluted&#34; signals that are spread across contexts rather than concentrated in a single sentence.
+
+### 3. TrojanStego (Meier et al., 2025)
+- **Key Contribution**: Demonstrates how LLMs can be fine-tuned to encode secrets in output tokens (e.g., using parity of token IDs) while maintaining fluency.
+- **Methodology**: Bit-bucket constrained generation during fine-tuning.
+- **Relevance**: Shows the feasibility of persistent, model-internal steganography that can be triggered by specific prompt patterns.
+
+### 4. Generative Text Steganography with Large Language Model (2024)
+- **Authors**: Tianhe Lu et al. (LLM-Stega)
+- **Key Contribution**: A black-box approach to generative steganography that balances perceptual and statistical imperceptibility.
+- **Relevance**: Practical baseline for modern LLM-based steganography.
+
+## Common Methodologies
+- **Arithmetic Coding**: Standard for mapping secret bits to tokens according to their predicted probabilities (e.g., Ziegler et al., 2019).
+- **Bit Buckets**: Partitioning the vocabulary into sets representing 0 or 1, used in both inference-time and training-time (TrojanStego) attacks.
+- **Embedding Geometry**: Using internal representations (hyperplanes) for bucketing instead of arbitrary mappings (Hide and Seek).
+
+## Standard Baselines
+- **ADG (Adaptive Dynamic Grouping)**: A common baseline for generative steganography.
+- **Arithmetic Coding (AC)**: Baseline for compression-based steganography.
+- **HC (Huffman Coding)**: Simpler coding baseline.
+
+## Evaluation Metrics
+- **Payload Recoverability**: How easily an unauthorized defender can extract the secret.
+- **KL Divergence**: Statistical shift from the base model&#39;s distribution.
+- **Perplexity (PPL)**: Measures the fluency and naturalness of the steganographic text.
+- **Bit Rate (bits per token)**: The amount of information hidden per unit of text.
+
+## Gaps and Opportunities
+- **Signal Dilution Detection**: Most current steganalysis assumes a relatively dense signal. Investigating how LLMs handle very sparse signals (e.g., 1 bit per 100 tokens) is an open area.
+- **Mechanistic Interpretability for Diluted Signals**: Can linear probes detect steganography if the &#34;trigger&#34; for encoding is very rare?
+
+## Recommendations for Our Experiment
+1. **Focus on Signal Sparsity**: Systematically vary the &#34;dilution factor&#34; (e.g., bits per $N$ tokens) to find the threshold where current detection methods fail.
+2. **Use Mechanistic Interpretability**: Compare output-level metrics (KL, PPL) with internal probes on late-layer activations, as suggested by Westphal et al. (2026).
+3. **Trigger-based Sparsity**: Hide messages only after specific low-frequency tokens to simulate highly targeted exfiltration.
+
+
+
+════════════════════════════════════════════════════════════════════════════════
+                          PAPER REQUIREMENTS
+════════════════════════════════════════════════════════════════════════════════
+
+Generate a complete academic paper with the following structure:
+
+1. TITLE
+   - Clear, specific, informative
+   - Should convey main finding or contribution
+
+2. AUTHOR
+   - Use this exact author line in the \author{} block: Ari Holtzman and NeuriCo
+
+3. ABSTRACT (150-250 words)
+   - Problem statement
+   - Approach
+   - Key results
+   - Significance
+
+4. INTRODUCTION
+   - Research problem and motivation
+   - Gap in existing work
+   - Our contribution (be specific)
+   - Paper organization
+
+5. RELATED WORK
+   - Organized by theme/approach
+   - Position our work relative to prior work
+   - Cite papers from literature review
+
+6. METHODOLOGY
+   - Clear description of approach
+   - Experimental setup
+   - Datasets used
+   - Evaluation metrics
+   - Baselines
+
+7. RESULTS
+   - Present results with tables and figures
+   - Statistical analysis
+   - Comparison to baselines
+   - Ablation studies (if applicable)
+
+8. DISCUSSION
+   - Interpretation of results
+   - Limitations
+   - Broader implications
+
+9. CONCLUSION
+   - Summary of contributions
+   - Key findings
+   - Future work
+
+10. REFERENCES
+   - BibTeX format
+   - All cited papers
+
+════════════════════════════════════════════════════════════════════════════════
+                          OUTPUT FORMAT
+════════════════════════════════════════════════════════════════════════════════
+
+Create a MODULAR LaTeX project with the following directory structure:
+
+paper_draft/
+├── main.tex              # Main file that imports all sections
+├── references.bib        # BibTeX references
+├── sections/
+│   ├── abstract.tex      # Abstract content
+│   ├── introduction.tex  # Introduction section
+│   ├── related_work.tex  # Related work section
+│   ├── methodology.tex   # Methodology section
+│   ├── results.tex       # Results section
+│   ├── discussion.tex    # Discussion section
+│   └── conclusion.tex    # Conclusion section
+├── figures/              # Directory for any generated figures
+├── tables/               # Directory for complex standalone tables
+└── appendix/             # Directory for appendix sections (if needed)
+
+INSTRUCTIONS:
+1. First, create the directory structure above (mkdir -p paper_draft/sections paper_draft/figures paper_draft/tables paper_draft/appendix)
+2. Write main.tex using the EXACT preamble for NEURIPS:
+
+   \documentclass{article}
+   \usepackage[final]{neurips_2025}  % NEURIPS style (neurips_2025.sty is in paper_draft/)
+   \usepackage[hidelinks]{hyperref}  % REQUIRED: clickable links
+   \usepackage{booktabs}  % REQUIRED: professional tables
+   \usepackage{graphicx}
+   \usepackage{amsmath,amssymb}
+
+   % Import command files
+   \input{commands/math}
+   \input{commands/general}
+   \input{commands/macros}
+
+   % Use this bibliography style:
+   \bibliographystyle{plainnat}
+
+   \author{Ari Holtzman and NeuriCo}
+
+   - Use \input{sections/...} to include each section
+   - Use \bibliography{references} for references
+3. Write each section file with COMPLETE content (no placeholders)
+4. Each section file should include its \section{} command
+5. Write references.bib with all citations in BibTeX format
+6. After writing all files, compile the paper:
+   cd paper_draft && pdflatex -interaction=nonstopmode main.tex && bibtex main && pdflatex -interaction=nonstopmode main.tex && pdflatex -interaction=nonstopmode main.tex
+
+This modular structure allows humans to easily:
+- Edit individual sections without navigating a large file
+- Track changes per section
+- Reuse sections across different paper versions
+
+════════════════════════════════════════════════════════════════════════════════
+                          QUALITY REQUIREMENTS
+════════════════════════════════════════════════════════════════════════════════
+
+- Academic tone throughout
+- All claims must be supported by data from the experiment report
+- Proper citations using \cite{} commands
+- Clear figures and tables with proper captions
+- NO placeholder text - every section must have real content
+- The paper MUST compile without errors
+- If compilation fails, debug and fix the LaTeX errors
+
+════════════════════════════════════════════════════════════════════════════════
+                          LAB WRITING STYLE
+════════════════════════════════════════════════════════════════════════════════
+
+Follow these lab-specific conventions to match our paper style:
+
+1. LANGUAGE STYLE:
+   - Use active voice: "We propose", "We examine", "We focus on"
+   - Be direct and confident: "Our main question is...", "We hypothesize that..."
+   - State things clearly and simply - prefer plain language over jargon
+   - Use bold questions as paragraph organizers: {\bf what is X?}
+   - Include specific quantitative claims: "8.97% over baseline"
+   - Avoid fancy wording: "utilize" → "use", "facilitate" → "help"
+
+2. INTRODUCTION STRUCTURE:
+   - Engaging hook (get to the point quickly)
+   - Problem importance
+   - Gap identification
+   - Your approach with method figure reference
+   - Quantitative preview of results
+   - Contribution bullets (3-4 items, action verbs)
+
+3. CONTRIBUTION LISTS:
+   \begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+       \item We propose...
+       \item We conduct...
+       \item We complement...
+   \end{itemize}
+
+4. MODULAR COMMANDS STRUCTURE:
+   Command templates are pre-copied to paper_draft/commands/:
+   - math.tex: Math notation macros
+   - general.tex: Formatting macros
+   - macros.tex: Project-specific term definitions (customize this for your paper)
+
+   In main.tex, include:
+   \input{commands/math}
+   \input{commands/general}
+   \input{commands/macros}
+
+5. REFERENCE CONVENTIONS:
+   Use reference macros from math.tex:
+   - \figref{fig:name} for "figure 1" (lowercase, in-sentence)
+   - \Figref{fig:name} for "Figure 1" (capitalized, start of sentence)
+   - \secref{sec:name} for "section 2"
+
+6. TEXT FORMATTING:
+   - Use \para{Header text} for bold paragraph headers
+   - Define method/dataset names with \textsc and \xspace:
+     \newcommand{\methodname}{\textsc{MethodName}\xspace}
+
+7. TABLE FORMATTING:
+   - Use booktabs package (no vertical lines)
+   - Use \resizebox{\textwidth}{!}{...} for wide tables
+   - Use @{} to remove padding at table edges
+   - Use \cmidrule(lr){x-y} for sub-headers
+   - Use \textsc{} for dataset/method names in headers
+   - Bold best results with {\bf ...}
+
+8. FIGURE FORMATTING:
+   - Use 0.32\textwidth for 3-column subfigures
+   - Use 0.95\linewidth for full-width figures
+   - Use \input{figures/legend} for shared legends
+   - Write self-contained captions explaining key observations
+
+9. RESULTS PRESENTATION:
+   - Define \increase and \decrease for colored arrows (green up, red down)
+   - Bold best results in tables
+   - Report confidence intervals when available
+
+10. ALGORITHM STYLING:
+    - Use algpseudocode with [noend]
+    - Use \triangleright for comments
+
+11. HYPERLINKS (REQUIRED):
+    - Always use \usepackage[hidelinks]{hyperref} or with colored links
+    - All citations, section refs, figure refs, table refs must be clickable
+    - This is essential for reader navigation
+
+════════════════════════════════════════════════════════════════════════════════
+                          WORKFLOW: REVIEW AND REFLECT
+════════════════════════════════════════════════════════════════════════════════
+
+Before calling finish, you MUST complete these review steps:
+
+1. REVIEW RESOURCES (at the start):
+   - Read .gemini/skills/paper-writer/SKILL.md for detailed guidance
+   - Study templates/paper_writing/lab_style_guide.md for style conventions
+   - Browse paper_examples/ for formatting and language patterns
+
+2. SELF-REFLECTION (before finishing):
+   After writing all sections, review your work against these criteria:
+
+   LANGUAGE CHECK:
+   - [ ] Is the writing clear and jargon-free?
+   - [ ] Are claims specific with quantitative support?
+   - [ ] Is active voice used throughout?
+
+   FORMATTING CHECK:
+   - [ ] Does main.tex include \input{commands/math}, \input{commands/general}, \input{commands/macros}?
+   - [ ] Is hyperref package included for clickable references?
+   - [ ] Do tables use booktabs (no vertical lines)?
+   - [ ] Are best results bolded in tables?
+   - [ ] Are figures/tables properly captioned?
+
+   STRUCTURE CHECK:
+   - [ ] Does introduction follow: hook → importance → gap → approach → preview → contributions?
+   - [ ] Are contribution bullets specific with action verbs?
+   - [ ] Does the paper compile without errors?
+
+3. FIX ISSUES:
+   - Address any issues found in the self-reflection
+   - Re-compile and verify the PDF looks correct
+
+Only after completing this review should you consider the paper finished.

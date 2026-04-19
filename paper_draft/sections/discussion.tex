@@ -1,0 +1,16 @@
+\section{Discussion}
+\label{sec:discussion}
+
+The results of our study on \ours highlight several critical aspects of steganographic stealth and the limitations of current LLM-based forensics.
+
+{\bf The "Invisibility" of Diluted Signals.} 
+The most significant finding is the total failure of \gpt to detect steganographic messages, even in the "Dense" condition where the signal frequency (7.8\% of tokens) is relatively high. This "invisibility" suggests that steganographic drift—when mitigated by high-quality LLM-based word replacement—is indistinguishable from natural linguistic variation for zero-shot detection. Even when "hinted" that a trigger-based rule might be present, the model failed to adjust its predictions. This underscores the potency of dilution as a defense mechanism against automated detection in large-scale corpora.
+
+{\bf Cognitive vs. Statistical Bottlenecks.} 
+While detection failed entirely, the model's partial success in extraction (71\% for very sparse signals) reveals an interesting cognitive bottleneck. The rule itself ($[a-m]$ vs $[n-z]$) is conceptually simple and requires only local inspection. However, the model's performance degraded sharply as the number of triggers per sample increased. This suggests that the primary challenge for LLMs in steganographic extraction is not the {\bf statistical signal} but the {\bf sequence complexity}—the demand to systematically identify, track, and apply a rule across many distant tokens in a single context window.
+
+{\bf Detection vs. Extraction Gap.} 
+There is a notable gap between detection and extraction capabilities. The model can *sometimes* recover a signal when explicitly told what to look for, but it never "notices" the signal autonomously. This "blindness" is advantageous for an attacker who possesses the "key" (the trigger word and rule) but seeks to remain hidden from general-purpose defenders.
+
+{\bf Limitations and Broader Implications.} 
+Our study is limited by its relatively small sample size (n=37) and the use of a single evaluator model (\gpt). Additionally, the simple encoding rule used here may not represent the full complexity of advanced steganographic methods. However, our findings have broad implications for AI safety and forensics. If current SOTA models are unable to detect even dense trigger-based signals, then more sophisticated, diluted exfiltration methods likely represent a significant and unaddressed security risk. Future work should investigate whether mechanistic interpretability or fine-tuned detection probes can perform better than zero-shot prompting.

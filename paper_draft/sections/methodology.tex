@@ -1,0 +1,58 @@
+\section{Methodology}
+\label{sec:methodology}
+
+We describe \ours, our framework for evaluating steganographic signals under various dilution levels. We focus on {\bf Trigger-Word Steganography}, where bits are hidden only after specific "trigger tokens" in the text.
+
+\subsection{Encoding Rule}
+We employ a simple, yet effective, rule to encode a secret bit $b \in \{0, 1\}$ following a trigger word $T$.
+Let $w$ be the word immediately following trigger $T$. We encode the bit as follows:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item $b = 0 \iff$ The first letter of $w$ is in the range $[a, m]$.
+    \item $b = 1 \iff$ The first letter of $w$ is in the range $[n, z]$.
+\end{itemize}
+This rule is designed to be easily verifiable while providing a clear statistical signal for detection if the presence of a hidden message is suspected.
+
+\subsection{Signal Dilution Levels}
+The "dilution" of the steganographic signal is controlled by the frequency of the trigger word $T$. We define four levels of dilution based on the occurrence of specific tokens in the \wikitext dataset (\tabref{tab:dilution_levels}):
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item {\bf Dense}: Trigger = "the" (approx. 7.8\% frequency).
+    \item {\bf Medium}: Trigger = "of" (approx. 3.3\% frequency).
+    \item {\bf Sparse}: Trigger = "is" (approx. 0.55\% frequency).
+    \item {\bf Very Sparse}: Trigger = "however" (approx. 0.076\% frequency).
+\end{itemize}
+
+\begin{table}[h]
+\centering
+\caption{Dilution levels based on trigger word frequency.}
+\begin{tabular}{@{}llc@{}}
+\toprule
+\textsc{Level} & \textsc{Trigger Word} & \textsc{Estimated Frequency (\%)} \\
+\midrule
+Dense & "the" & 7.8 \\
+Medium & "of" & 3.3 \\
+Sparse & "is" & 0.55 \\
+Very Sparse & "however" & 0.076 \\
+\bottomrule
+\end{tabular}
+\label{tab:dilution_levels}
+\end{table}
+
+\subsection{Data Generation and Steganographic Drift}
+We extracted 37 samples from the \wikitext dataset as \cover. For each sample, we generated \stego by identifying all occurrences of the target trigger word and modifying the subsequent word to encode a randomly generated bitstream. To ensure high fluency and "natural" steganographic drift, we used \gptmini as a re-writer. The model was prompted to replace the target word with a synonym or contextually appropriate word that satisfies the encoding constraint while maintaining the original sentence's semantics and fluency.
+
+\subsection{Evaluation Tasks}
+We evaluated the performance of \gpt on two primary tasks:
+\begin{enumerate}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item {\bf Detection}: The model is given a text sample and asked to predict whether it contains a hidden steganographic message ("Yes" or "No"). We tested this in two settings:
+        \begin{itemize}
+            \item \para{\zs}: Zero-shot detection with a standard prompt.
+            \item \para{\hint}: The model is told that a message might be hidden using a trigger-based rule, but the exact rule and trigger are not provided.
+        \end{itemize}
+    \item {\bf Extraction}: The model is provided with the exact trigger word and encoding rule and asked to extract the bitstream from a given \stego sample.
+\end{enumerate}
+
+\subsection{Metrics}
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item {\bf Detection Performance}: Measured by True Positive Rate (\TPR) and overall accuracy on a balanced dataset of \cover and \stego.
+    \item {\bf Extraction Performance}: Measured by Average Bit Error Rate (\BER) and the ratio of correctly extracted bits to total bits.
+\end{itemize}

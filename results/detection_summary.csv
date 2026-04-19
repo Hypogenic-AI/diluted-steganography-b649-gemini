@@ -1,0 +1,5 @@
+Level,ZS_Accuracy,ZS_TPR,ZS_FPR,Hint_Accuracy,Hint_TPR,Hint_FPR
+Dense,0.5,0.0,0.0,0.5,0.0,0.0
+Medium,0.5,0.0,0.0,0.5,0.0,0.0
+Sparse,0.5,0.0,0.0,0.5,0.0,0.0
+Very_Sparse,0.5,0.0,0.0,0.5,0.0,0.0

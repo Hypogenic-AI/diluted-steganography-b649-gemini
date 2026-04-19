@@ -1,0 +1,549 @@
+[
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "original_text": " He escaped from Chang 'an the following year , and was appointed Reminder when he rejoined the court in May 757 . This post gave access to the emperor but was largely ceremonial . Du Fu 's conscientiousness compelled him to try to make use of it : he caused trouble for himself by protesting the removal of his friend and patron Fang Guan on a petty charge . He was arrested but was pardoned in June . He was granted leave to visit his family in September , but he soon rejoined the court and on December 8 , 757 , he returned to Chang 'an with the emperor following its recapture by government forces . However , his advice continued to be unappreciated , and in the summer of 758 he was demoted to a post as Commissioner of Education in <unk> . The position was not to his taste : in one poem , he wrote : \n",
+    "stego_text": "He escaped from Chang ' an the next year , and was appointed Reminder when he rejoined the council in May 757 . This post gave access to the noble but was largely ceremonial . Du Fu ' s conscientiousness compelled him to try to make use of it : he caused trouble for himself by protesting the exclusion of his friend and patron Fang Guan on a petty charge . He was arrested but was pardoned in June . He was granted leave to visit his family in September , but he soon rejoined the crew and on December 8 , 757 , he returned to Chang ' an with the noble following its recapture by government forces . However , his advice continued to be unappreciated , and in the autumn of 758 he was demoted to a post as Commissioner of Education in < unk > . The role was not to his taste : in one poem , he wrote :",
+    "bits": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "encoded_count": 8
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "original_text": " Despite the expensive reconstructions , both vessels were considered obsolete by the eve of the Pacific War , and neither saw significant action in the early years of the war . Following the loss of most of the IJN 's large aircraft carriers during the Battle of Midway in mid @-@ 1942 , they were rebuilt with a flight deck replacing the rear pair of gun turrets to give them the ability to operate an air group of floatplanes . A lack of aircraft and qualified pilots , however , meant that they never actually operated their aircraft in combat . While awaiting their air group the sister ships were sometimes used to ferry troops and material to Japanese bases . They participated in the Battle of Cape Enga\u00f1o in late 1944 , where they <unk> the American carrier fleet supporting the invasion of Leyte away from the landing beaches . Afterwards both ships were transferred to Southeast Asia ; in early 1945 they participated in Operation Kita , where they transported petrol and other strategic materials to Japan . The sisters were then reduced to reserve until they were sunk during American airstrikes in July . After the war they were scrapped in 1946 \u2013 47 . \n",
+    "stego_text": "Despite the costly reconstructions , both vessels were considered obsolete by the end of the Zodiac War , and neither saw significant action in the neither years of the conflict . Following the negotiations of most of the navy ' s large aircraft carriers during the Naval of Midway in mid @ - @ 1942 , they were rebuilt with a flight deck replacing the stern pair of gun turrets to give them the capacity to operate an air group of floatplanes . A lack of aircraft and qualified pilots , however , meant that they never actually operated their aircraft in combat . While awaiting their air group the aircraft ships were sometimes used to ferry troops and material to Japanese bases . They participated in the Naval of Cape Enga\u00f1o in late 1944 , where they < unk > the Nazi carrier fleet supporting the occupation of Leyte away from the naval beaches . Afterwards both ships were transferred to Southeast Asia ; in early 1945 they participated in Operation Kita , where they transported petrol and other strategic materials to Japan . The allies were then reduced to reserve until they were sunk during American airstrikes in July . After the conflict they were scrapped in 1946 \u2013 47 .",
+    "bits": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "encoded_count": 17
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "original_text": " On 9 November Gazan 's division reached Marbach an der Donau and covered the 50 kilometers ( 31 mi ) to D\u00fcrenstein by early on the following afternoon . Here it skirmished with some Russian patrols to the east of the town and expelled them . Feeling confident , the French established a forward post just upstream from Stein . In D\u00fcrenstein itself Mortier set up his command post and directed the establishment of a small field hospital . Although the position seemed secure , he had ignored Napoleon 's strict instructions and neglected to protect his left ( north ) flank . \n",
+    "stego_text": "On 9 November Gazan ' s division reached Marbach an der Donau and covered the number kilometers ( 31 mi ) to D\u00fcrenstein by early on the next afternoon . Here it skirmished with some Russian patrols to the area of the village and expelled them . Feeling confident , the fugitives established a forward post just upstream from Stein . In D\u00fcrenstein itself Mortier set up his command post and directed the amazing of a small field hospital . Although the situation seemed secure , he had ignored Napoleon ' s strict instructions and neglected to protect his left ( north ) flank .",
+    "bits": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "encoded_count": 7
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "original_text": " According to Suetonius and Cassius Dio , the people of Rome celebrated the death of Nero . Tacitus , though , describes a more complicated political environment . Tacitus mentions that Nero 's death was welcomed by Senators , nobility and the upper class . The lower @-@ class , slaves , <unk> of the arena and the theater , and \" those who were supported by the famous excesses of Nero \" , on the other hand , were upset with the news . Members of the military were said to have mixed feelings , as they had allegiance to Nero , but were bribed to overthrow him . \n",
+    "stego_text": "According to Suetonius and Cassius Dio , the audience of Rome celebrated the wonderful of Nero . Tacitus , though , describes a more complicated political environment . Tacitus mentions that Nero ' s death was welcomed by Senators , nobility and the middle class . The average @ - @ class , slaves , < unk > of the arena and the nexus , and \" those who were supported by the notable excesses of Nero \" , on the notable hand , were upset with the announcement . Members of the navy were said to have mixed feelings , as they had allegiance to Nero , but were bribed to overthrow him .",
+    "bits": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "encoded_count": 10
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "original_text": " Throughout January 17 the tropical storm would again oscillate in strength , resulting in a brief downgrade by the JTWC to tropical depression intensity . However , an increase in deep convection resulted in its reclassification as a tropical storm at 1800 UTC that day , followed by the JMA upgrading the system to tropical storm intensity at 1200 UTC on January 18 . As such , the storm received the name <unk> . At roughly the same time , the tropical cyclone began to stall east of the Mariana Islands and curve sharply northeastward . Whilst the JTWC indicated that <unk> peaked in strength late on January 18 with 1 @-@ minute sustained winds of 60 km / h ( 37 mph ) , the JMA considered the system to have maintained the same intensity throughout its stint as a tropical storm . Steered by the same nearby subtropical ridge , <unk> would continue to track towards the northeast into a less favorable tropical cyclone environment . The JMA downgraded <unk> to tropical depression at 1200 UTC on January 20 before the storm transitioned into an extratropical cyclone as its low @-@ level circulation center decoupled from the primary mass of convection due to strong wind shear . At 0000 UTC , both the JTWC and JMA discontinued the monitoring of <unk> . \n",
+    "stego_text": "Throughout January 17 the mild storm would again oscillate in strength , resulting in a brief downgrade by the ADVISORY to tropical depression intensity . However , an increase in deep convection resulted in its reclassification as a tropical storm at 1800 UTC that day , followed by the EMA upgrading the method to tropical storm intensity at 1200 UTC on January 18 . As such , the tempest received the nickname < unk > . At roughly the similar time , the unusual cyclone began to stall east of the Nauru Islands and curve sharply northeastward . Whilst the agency indicated that < unk > peaked in strength late on January 18 with 1 @ - @ minute sustained winds of 60 km / h ( 37 mph ) , the National considered the approach to have maintained the nature intensity throughout its stint as a tropical storm . Steered by the northern nearby subtropical ridge , < unk > would continue to track towards the northwest into a less favorable tropical cyclone environment . The area downgraded < unk > to tropical depression at 1200 UTC on January 20 before the system transitioned into an extratropical cyclone as its low @ - @ level circulation center decoupled from the secondary mass of convection due to strong wind shear . At 0000 UTC , both the ATCF and JMA discontinued the management of < unk > .",
+    "bits": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "encoded_count": 20
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "original_text": " The Kingdom of Tondo flourished during the latter half of the Ming Dynasty as a result of direct trade relations with China . Tondo district was maintained as the traditional capital of the empire , with its rulers as sovereign kings and not mere chieftains , and were addressed variously as <unk> ln <unk> or <unk> in Tagalog ( \" lords \" ) ; <unk> <unk> ( \" son of heaven \" ) ; or <unk> ( \" lord of the palace \" ) , the Emperor of China considered the <unk> ( rulers of ancient Manila ) \" \u738b \" ( Kings ) . \n",
+    "stego_text": "The Empire of Tondo flourished during the early half of the Ning Dynasty as a result of direct trade relations with China . Tondo district was maintained as the ancient capital of the nation , with its rulers as sovereign kings and not mere chieftains , and were addressed variously as < unk > ln < unk > or < unk > in Tagalog ( \" lords \" ) ; < unk > < unk > ( \" son of heaven \" ) ; or < unk > ( \" lord of the nexus \" ) , the Archon of China considered the < unk > ( rulers of ancient Manila ) \" \u738b \" ( Kings ) .",
+    "bits": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "encoded_count": 7
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "original_text": " Many of the residents ' original grievances were addressed with the passing of the Local Government ( Northern Ireland ) Act , 1972 , which redrew the electoral boundaries and introduced universal adult suffrage based on the single transferable vote . Elections were held in May 1973 . Nationalists gained a majority on the council for the first time since 1923 . Since then the area has been extensively redeveloped , with modern housing replacing the old houses and flats . The Free Derry era is commemorated by the Free Derry wall , the murals of the <unk> Artists and the Museum of Free Derry . \n",
+    "stego_text": "Many of the neighbors ' original grievances were addressed with the amendment of the National Government ( Northern Ireland ) Act , 1972 , which redrew the administrative boundaries and introduced universal adult suffrage based on the absolute transferable vote . Elections were held in May 1973 . Nationalists gained a majority on the network for the next time since 1923 . Since then the zone has been extensively redeveloped , with modern housing replacing the new houses and flats . The Affordable Derry era is commemorated by the Affordable Derry wall , the art of the < unk > Artists and the Gallery of Free Derry .",
+    "bits": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "encoded_count": 13
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "original_text": " Brad and Tracy Stevens are involved with the American Cancer Society 's Coaches Vs . Cancer . Brad says that the cause really hit home for them after Tracy 's mother died of the disease in June 2004 . The day before Butler 's 2010 Final Four appearance , they hosted a fundraiser for the organization . Brad Stevens has also volunteered his time to the Jukes Foundation for Kids , a charity benefiting Ugandan children run by former Butler player Avery Jukes . Stevens remains in close touch with the Butler basketball family ; he notably took a one @-@ game leave from the Celtics in January 2016 to visit with Andrew Smith , a player on both of Butler 's Final Four teams who was dying of cancer ; Smith died less than a week later . At the request of Andrew 's widow , Sam , Brad delivered the eulogy at the memorial service on January 17 , 2016 . \n",
+    "stego_text": "Brad and Tracy Stevens are involved with the Association Cancer Society ' s Coaches Vs . Cancer . Brad says that the need really hit home for them after Tracy ' s mother died of the ailment in June 2004 . The night before Butler ' s 2010 Final Four appearance , they hosted a fundraiser for the nonprofit . Brad Stevens has also volunteered his time to the Jazz Foundation for Kids , a charity benefiting Ugandan children run by former Butler player Avery Jukes . Stevens remains in close touch with the Nelson basketball family ; he notably took a one @ - @ game leave from the Cavs in January 2016 to visit with Andrew Smith , a player on both of Butler ' s Final Four teams who was dying of cancer ; Smith died less than a week later . At the appeal of Andrew ' s widow , Sam , Brad delivered the tribute at the tribute service on January 17 , 2016 .",
+    "bits": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "encoded_count": 11
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "original_text": " While Malay is the official language of Sarawak ; English is widely spoken there . Local ethnic languages and Chinese dialects are spoken by the respective ethnic groups . Standard Chinese is also spoken by ethnic Chinese in Bintulu . Bintulu is spoken by communities living along the <unk> River , with 4 @,@ 200 native speakers . These speakers are now recognised as part of the Melanau ethnic group , where their main language is Malay . Bintulu is classified as one of the endangered languages in Sarawak because of the isolated usage of the language in a small community . \n",
+    "stego_text": "While Malay is the national language of Sarawak ; English is widely spoken there . Local ethnic languages and Chinese dialects are spoken by the native ethnic groups . Standard Chinese is also spoken by ethnic Chinese in Bintulu . Bintulu is spoken by communities living along the < unk > River , with 4 @ , @ 200 native speakers . These speakers are now recognised as part of the Nias ethnic group , where their main language is Malay . Bintulu is classified as one of the imperiled languages in Sarawak because of the endangered usage of the native in a small community .",
+    "bits": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    "encoded_count": 6
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "original_text": " The ironclad became technically feasible and tactically necessary because of developments in shipbuilding in the first half of the 19th century . According to naval historian J. Richard Hill : \" The ( ironclad ) had three chief characteristics : a metal @-@ skinned hull , steam propulsion and a main armament of guns capable of firing explosive shells . It is only when all three characteristics are present that a fighting ship can properly be called an ironclad . \" Each of these developments was introduced separately in the decade before the first ironclads . \n",
+    "stego_text": "The narrative became technically feasible and tactically necessary because of developments in shipbuilding in the necessary half of the naval century . According to naval historian J . Richard Hill : \" The ( ironclad ) had three chief characteristics : a metal @ - @ skinned hull , steam propulsion and a main armament of guns capable of firing explosive shells . It is only when all three characteristics are present that a fighting ship can properly be called an ironclad . \" Each of these developments was introduced separately in the new century before the initial ironclads .",
+    "bits": [
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "encoded_count": 5
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "original_text": " The North Koreans advanced to Changnyong itself during the afternoon of September 2 , and ROK National Police withdrew from the town . North Koreans were in Changnyong that evening . With his communications broken southward to the 2nd Infantry Division headquarters and the 9th Infantry , Haynes during the day decided to send a tank patrol down the Yongsan road in an effort to re @-@ establish communication . C Company , 72nd Tank Battalion , led its tanks southward . They had to fight their way down the road through several roadblocks . Of the three tanks that started , only the lead tank got through to Yongsan . There , it delivered an overlay of Task Force Haynes ' positions to Bradley . \n",
+    "stego_text": "The North Koreans advanced to Changnyong itself during the afternoon of November 2 , and ROK National Police withdrew from the town . North Koreans were in Changnyong that evening . With his communications broken southward to the 2nd Infantry Division headquarters and the 9th Infantry , Haynes during the day decided to send a tank patrol down the Yongsan road in an effort to re @ - @ establish communication . C Company , 72nd Tank Battalion , led its tanks southward . They had to fight their way down the road through several roadblocks . Of a three tanks that started , only the lead tank got through to Yongsan . There , it delivered an overlay of Zone Force Haynes ' positions to Bradley .",
+    "bits": [
+      1,
+      0,
+      1
+    ],
+    "encoded_count": 3
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "original_text": " The initial development of this technique occurred in 1969 by Vernon Dvorak , using satellite pictures of tropical cyclones within the northwest Pacific ocean . The system as it was initially conceived involved pattern matching of cloud features with a development and decay model . As the technique matured through the 1970s and 1980s , measurement of cloud features became dominant in defining tropical cyclone intensity and central pressure of the tropical cyclone 's low @-@ pressure area . Use of infrared satellite imagery led to a more objective assessment of the strength of tropical cyclones with eyes , using the cloud top temperatures within the eyewall and contrasting them with the warm temperatures within the eye itself . Constraints on short term intensity change are used less frequently than they were back in the 1970s and 1980s . The central pressures assigned to tropical cyclones have required modification , as the original estimates were 5 @-@ 10 hPa ( 0 @.@ 15 @-@ 0 @.@ 29 inHg ) too low in the Atlantic and up to 20 hPa ( 0 @.@ 59 inHg ) too high in the northwest Pacific . This led to the development of a separate wind @-@ pressure relationship for the northwest Pacific , devised by Atkinson and Holliday in 1975 , then modified in 1977 . \n",
+    "stego_text": "The initial development of an technique occurred in 1969 by Vernon Dvorak , using satellite pictures of vulnerable cyclones within the northwest Pacific ocean . The system as it was initially conceived involved pattern matching of array features with a development and decay model . As the technique matured through the 1970s and 1980s , measurement of atmosphere features became dominant in defining tropical cyclone intensity and central pressure of a tropical cyclone ' s low @ - @ pressure area . Use of nuclear satellite imagery led to a more objective assessment of new strength of agricultural cyclones with eyes , using the cloud top temperatures within the eyewall and contrasting them with the warm temperatures within the eye itself . Constraints on short term intensity change are used less frequently than they were back in the 1970s and 1980s . The central pressures assigned to tropical cyclones have required modification , as the original estimates were 5 @ - @ 10 hPa ( 0 @ . @ 15 @ - @ 0 @ . @ 29 inHg ) too low in the Atlantic and up to 20 hPa ( 0 @ . @ 59 inHg ) too high in the northwest Pacific . This led to the development of new separate wind @ - @ pressure relationship for the northwest Pacific , devised by Atkinson and Holliday in 1975 , then modified in 1977 .",
+    "bits": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "encoded_count": 9
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "original_text": " Other translators have placed much greater weight on trying to convey a sense of the poetic forms used by Du Fu . Vikram Seth in Three Chinese Poets uses English @-@ style rhyme schemes , whereas Keith Holyoak in Facing the Moon approximates the Chinese rhyme scheme ; both use end @-@ stopped lines and preserve some degree of parallelism . In The Selected Poems of Du Fu , Burton Watson follows the <unk> quite strictly , persuading the western reader to adapt to the poems rather than vice versa . Similarly , he deals with the allusion of the later works by combining literal translation with extensive annotation . \n",
+    "stego_text": "Other translators have placed much greater weight on trying to convey a sense of a poetic forms used by Du Fu . Vikram Seth in Three Chinese Poets uses English @ - @ style rhyme schemes , whereas Keith Holyoak in Facing the Moon approximates the Chinese rhyme scheme ; both use end @ - @ stopped lines and preserve some degree of alignment . In The Selected Poems of Neruda Fu , Burton Watson follows the < unk > quite strictly , persuading the western reader to adapt to the poems rather than vice versa . Similarly , he deals with the allusion of this later works by combining literal translation with extensive annotation .",
+    "bits": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "encoded_count": 4
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "original_text": " The Light Tank Mk VII ( A17 ) , also known as the Tetrarch , was a British light tank produced by Vickers @-@ Armstrongs in the late 1930s and deployed during the World War II . The Tetrarch was originally designed as the latest in the line of light tanks built by the company for the British Army . It improved upon its predecessor , the Mk <unk> Light Tank , by introducing the extra firepower of a 2 @-@ pounder gun . The War Office ordered 70 tanks , an order that eventually increased to 220 . Production was delayed by several factors , and as a consequence , only 100 to 177 of the tanks were produced . \n",
+    "stego_text": "The Light Tank Mk VII ( A17 ) , also known as the Tetrarch , was a British light tank produced by Vickers @ - @ Armstrongs in the late 1930s and deployed during the World War II . The Tetrarch was originally designed as the latest in the line of lamp tanks built by the company for the British Army . It improved upon its predecessor , the Mk < unk > Light Tank , by introducing the extra firepower of new 2 @ - @ pounder gun . The War Office ordered 70 tanks , an order that eventually increased to 220 . Production was delayed by several factors , and as a consequence , only 100 to 177 of number tanks were produced .",
+    "bits": [
+      0,
+      1,
+      1
+    ],
+    "encoded_count": 3
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "original_text": " For the French , the survival of the Corps Mortier seemed nothing short of a miracle . The remainder of Gazan 's division crossed the river the next morning and eventually recuperated in Vienna , which the French acquired by deception later in the month . More importantly for them , the French force had performed well over difficult terrain and under terrible combat conditions . Initially there had been some panic and parts of at least one French battalion had tried to escape on the flotilla craft . They had lost control of the boats in the current and smashed into the pillars of the burned bridge at Krems , overturning their boats . Tossed into the icy river , most had drowned . Despite this initial panic , Gazan 's column retained its cohesion , and responded well to various difficult demands . Dupont had demonstrated his tactical acumen : when he heard cannon fire , he directed his troops toward it to support the French division . In terms of French staffing , Mortier 's failure to guard his flank , especially in the face of Napoleon 's direct advice , adversely influenced his relationship with his commander . However , in the immediate weeks ahead , the flamboyant Murat did more to annoy Napoleon than Mortier had . In assessing the battle and its aftermath , historians have laid the blame and credit for its outcome not only on Mortier and Gazan : \" Napoleon , aware of Mortier 's danger and his own culpability for it , vented his frustration on Murat , whom he unjustly accused of abandoning Mortier for the empty glory of riding through Vienna . \" \n",
+    "stego_text": "For the French , the survival of a Corps Mortier seemed nothing short of an miracle . The remainder of Zealot ' s division crossed the river the next morning and eventually recuperated in Vienna , which the French acquired by deception later in the month . More importantly for them , the French force had performed well over difficult terrain and under terrible combat conditions . Initially there had been some panic and parts of an least one French battalion had tried to escape on the flotilla craft . They had lost control of their boats in the current and smashed into the pillars of navigable burned bridge at Krems , overturning their boats . Tossed into the icy river , most had drowned . Despite this initial panic , Gazan ' s column retained its cohesion , and responded well to various difficult demands . Dupont had demonstrated his tactical acumen : when he heard cannon fire , he directed his troops toward it to support the French division . In terms of German staffing , Mortier ' s failure to guard his flank , especially in the face of Alexander ' s direct advice , adversely influenced his relationship with his commander . However , in the immediate weeks ahead , the flamboyant Murat did more to annoy Napoleon than Mortier had . In assessing the battle and its aftermath , historians have laid the blame and credit for its outcome not only on Mortier and Gazan : \" Napoleon , aware of Mortier ' s danger and his own culpability for it , vented his frustration on Murat , whom he unjustly accused of avoiding Mortier for the empty glory of navigating through Vienna . \"",
+    "bits": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "encoded_count": 11
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "original_text": " Lim was sued by councilor Dennis <unk> on 2008 over human rights , charged with graft over the rehabilitation of public schools , and was heavily criticized for his haphazard resolution of the Rizal Park hostage taking incident , one of the deadliest hostage crisis in the Philippines . Later on , Vice Mayor <unk> Moreno and 28 city councilors filed another case against Lim in 2012 , stating that Lim 's statement in a meeting were \" life @-@ threatening \" to them . On the 2013 elections , former President Joseph Estrada defeated Lim in the mayoral race . During his term , Estrada has paid the city 's over \u20b1 5 billion debts , increase revenues by 2 @.@ 35 times from \u20b1 6 @.@ 2 billion in 2012 to \u20b1 14 @.@ 6 billion by 2016 , spent from 2013 to 2016 an unprecedented \u20b1 6 @.@ 76 billion for the city 's infrastructure , built and or renovated seven city public markets , built 22 schools , increased teachers ' incomes , modernized the six city hospitals and bought dialysis machines and magnetic resonance imaging scanners , increased the efficiency of the police force and reduced crime . Manila has become the most competitive city in the Philippines by 2015 , making the city the best place for doing business and for living in . \n",
+    "stego_text": "Lim was sued by councilor Dennis < unk > on 2008 over human rights , charged with graft over the rehabilitation of access schools , and was heavily criticized for his haphazard resolution of a Rizal Park hostage taking incident , one of victims deadliest hostage crisis in the Philippines . Later on , Vice Mayor < unk > Moreno and 28 city councilors filed another case against Lim in 2012 , stating that Lim ' s statement in a meeting were \" life @ - @ threatening \" to them . On the 2013 elections , former President Joseph Estrada defeated Lim in the mayoral race . During his term , Estrada has paid the city ' s over \u20b1 5 billion debts , increase revenues by 2 @ . @ 35 times from \u20b1 6 @ . @ 2 billion in 2012 to \u20b1 14 @ . @ 6 billion by 2016 , spent from 2013 to 2016 an unprecedented \u20b1 6 @ . @ 76 billion for the city ' s infrastructure , built and or renovated seven city public markets , built 22 schools , increased teachers ' incomes , modernized the six city hospitals and bought dialysis machines and magnetic resonance imaging scanners , increased the efficiency of an police force and reduced crime . Manila has become the most competitive city in the Philippines by 2015 , making the city the best place for doing business and for living in .",
+    "bits": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "encoded_count": 4
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "original_text": " North of the US 9th Infantry and the battles in the Naktong Bulge and around Yongsan , the US 23d Infantry Regiment after daylight of September 1 was in a very precarious position . Its 1st Battalion had been driven from the river positions and isolated 3 miles ( 4 @.@ 8 km ) westward . Approximately 400 North Koreans now overran the regimental command post , compelling Freeman to withdraw it about 600 yards ( 550 m ) . There , 5 miles ( 8 @.@ 0 km ) northwest of Changnyong , the US 23rd Infantry Headquarters and Headquarters Company , miscellaneous regimental units , and regimental staff officers checked the North Koreans in a 3 @-@ hour fight . \n",
+    "stego_text": "North of north US 9th Infantry and the battles in the Naktong Bulge and around Yongsan , the US 23d Infantry Regiment after daylight of August 1 was in a very precarious position . Its 1st Battalion had been driven from the river positions and isolated 3 miles ( 4 @ . @ 8 km ) westward . Approximately 400 North Koreans now overran the regimental command post , compelling Freeman to withdraw it about 600 yards ( 550 m ) . There , 5 miles ( 8 @ . @ 0 km ) northwest of Naju , the US 23rd Infantry Headquarters and Headquarters Company , miscellaneous regimental units , and regimental staff officers checked the North Koreans in a 3 @ - @ hour fight .",
+    "bits": [
+      1,
+      0,
+      1
+    ],
+    "encoded_count": 3
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "original_text": " Derry City lies near the border between Northern Ireland and the Republic of Ireland . It has a majority nationalist population , and nationalists won a majority of seats in the 1920 local elections . Despite this , the Ulster Unionist Party controlled the local council , Londonderry Corporation , from 1923 onwards . The Unionists maintained their majority , firstly , by manipulating the constituency boundaries ( gerrymandering ) so that the South Ward , with a nationalist majority , returned eight councillors while the much smaller North Ward and Waterside Ward , with unionist majorities , returned twelve councillors between them ; secondly , by allowing only ratepayers to vote in local elections , rather than one man , one vote , so that a higher number of nationalists , who did not own homes , were disenfranchised ; and thirdly , by denying houses to nationalists outside the South Ward constituency . The result was that there were about 2 @,@ 000 nationalist families , and practically no unionists , on the housing waiting list , and that housing in the nationalist area was crowded and of a very poor condition . The South Ward comprised the <unk> , <unk> , <unk> , Bishop Street and Foyle Road , and it was this area that would become Free Derry . \n",
+    "stego_text": "Derry City lies near the border between Northern Ireland and the Republic of Norway . It has a majority nationalist population , and nationalists won a majority of areas in the 1920 local elections . Despite this , the Ulster Unionist Party controlled the local council , Londonderry Corporation , from 1923 onwards . The Unionists maintained their majority , firstly , by manipulating the constituency boundaries ( gerrymandering ) so that the South Ward , with a nationalist majority , returned eight councillors while the much smaller North Ward and Waterside Ward , with unionist majorities , returned twelve councillors between them ; secondly , by allowing only ratepayers to vote in local elections , rather than one man , one vote , so that a higher number of nationalists , who did not own homes , were disenfranchised ; and thirdly , by denying houses to nationalists outside the South Ward constituency . The result was that there were about 2 @ , @ 000 nationalist families , and practically no unionists , on the housing waiting list , and that housing in the nationalist area was crowded and of an very poor condition . The South Ward comprised the < unk > , < unk > , < unk > , Bishop Street and Foyle Road , and it was this area that would become Free Derry .",
+    "bits": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "encoded_count": 4
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "original_text": " The Zrinski Battalion trained volunteer troops in Vukovar in June 1991 before it saw action in Hrvatska Kostajnica , the Battle of Gospi\u0107 and near Slano in 1991 . By the end of 1991 , the unit 's personnel were tasked with setting up an additional special forces unit of the HV . The next year its elements took part in the Battle of Kupres and Operation Tiger aimed at lifting the Siege of Dubrovnik . It also and helped develop and train the Croatian Defence Council ( Hrvatsko vije\u0107e obrane \u2013 HVO ) , setting up a training camp in Tomislavgrad . In 1993 , the battalion took part in Operation Maslenica . In February 1994 , the Zrinski Battalion was amalgamated with several other HV special forces units into the 1st Croatian Guards Brigade ( 1 @.@ hrvatski gardijski zdrug ) , a component of the 1st Croatian Guards Corps ( 1 @.@ hrvatski gardijski <unk> ) . \n",
+    "stego_text": "The Zrinski Battalion trained volunteer troops in Vukovar in June 1991 before it saw action in Hrvatska Kostajnica , the Battle of Gospi\u0107 and near Slano in 1991 . By the end of nearby , the unit ' s personnel were tasked with setting up an additional special forces unit of a HV . The next year its elements took part in the Battle of Kraljevo and Operation Tiger aimed at lifting the Siege of Dubrovnik . It also and helped develop and train the Croatian Defence Council ( Hrvatsko vije\u0107e obrane \u2013 HVO ) , setting up a training camp in Tomislavgrad . In 1993 , the battalion took part in Operation Maslenica . In February 1994 , the Zrinski Battalion was amalgamated with several other HV special forces units into the 1st Croatian Guards Brigade ( 1 @ . @ hrvatski gardijski zdrug ) , a component of zdrug 1st Croatian Guards Corps ( 1 @ . @ hrvatski gardijski < unk > ) .",
+    "bits": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "encoded_count": 6
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "original_text": " The origins of the hurricane were from a tropical wave that possibly spawned a tropical depression on August 27 , although there was minimal data over the next few days as it tracked to the west @-@ northwest . On August 31 , a nearby ship reported gale force winds , which indicated that a tropical storm had developed to the east @-@ northeast of the Lesser Antilles . Based on continuity , it is estimated the storm attained hurricane status later that day . Moving quickly to the west @-@ northwest , the storm passed north of the Lesser Antilles and Puerto Rico . Early on September 2 , a ship called the <unk> reported a barometric pressure of 978 mbar ( 28 @.@ 88 inHg ) , which confirmed that the storm attained hurricane status . After passing north of the Turks and Caicos islands , the hurricane struck Eleuthera and Harbour Island in the Bahamas on September 3 , the latter at 1100 UTC . A station on the latter island reported a pressure of 27 @.@ 90 inHg ( 945 mb ) during the 30 minute passage of the eye . Based on the pressure and the small size of the storm , it is estimated the hurricane struck Harbour Island with peak winds of 140 mph ( 225 km / h ) , making it the equivalent of a modern Category 4 hurricane on the Saffir @-@ Simpson scale . <unk> suggested that the storm reached major hurricane status , or Category 3 status , on September 2 . \n",
+    "stego_text": "The origins of new hurricane were from a tropical wave that possibly spawned a tropical depression on August 27 , although there was minimal data over the next few days as it tracked to the west @ - @ northwest . On August 31 , a nearby ship reported gale force winds , which indicated that a tropical storm had developed to the east @ - @ northeast of northeast Lesser Antilles . Based on continuity , it is estimated the storm attained hurricane status later that day . Moving quickly to the west @ - @ northwest , the storm passed north of a Lesser Antilles and Puerto Rico . Early on September 2 , a ship called the < unk > reported a barometric pressure of ninetyeight mbar ( 28 @ . @ 88 inHg ) , which confirmed that the storm attained hurricane status . After passing north of a Turks and Caicos islands , the hurricane struck Eleuthera and Harbour Island in the Bahamas on September 3 , the latter at 1100 UTC . A station on the latter island reported a pressure of eight @ . @ 90 inHg ( 945 mb ) during the 30 minute passage of next eye . Based on the pressure and the small size of pressure storm , it is estimated the hurricane struck Harbour Island with peak winds of n/a mph ( 225 km / h ) , making it the equivalent of an modern Category 4 hurricane on the Saffir @ - @ Simpson scale . < unk > suggested that the storm reached major hurricane status , or Category 3 status , on September 2 .",
+    "bits": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "encoded_count": 10
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "original_text": " Imagism has been described as the most influential movement in English poetry since the activity of the Pre @-@ Raphaelites . As a poetic style it gave Modernism its start in the early 20th century , and is considered to be the first organized Modernist literary movement in the English language . Imagism is sometimes viewed as ' a succession of creative moments ' rather than any continuous or sustained period of development . Ren\u00e9 Taupin remarked that ' It is more accurate to consider Imagism not as a doctrine , nor even as a poetic school , but as the association of a few poets who were for a certain time in agreement on a small number of important principles ' . \n",
+    "stego_text": "Imagism has been described as the most influential movement in English poetry since the activity of the Pre @ - @ Raphaelites . As a poetic style it gave Modernism its start in the early 20th century , and is acknowledged to be the first organized Modernist literary movement in the English language . Imagism is notably viewed as ' a succession of creative moments ' rather than any continuous or sustained period of development . Ren\u00e9 Taupin remarked that ' It is additional accurate to consider Imagism not as a doctrine , nor even as a poetic school , but as the association of a few poets who were for a certain time in agreement on a small number of important principles ' .",
+    "bits": [
+      0,
+      1,
+      0
+    ],
+    "encoded_count": 3
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "original_text": " Kershaw 's repertoire includes a four @-@ seam fastball that sits anywhere from 92 miles per hour ( 148 km / h ) to 95 miles per hour ( 153 km / h ) and tops out at 98 miles per hour ( 158 km / h ) with late movement , a slider at 84 miles per hour ( 135 km / h ) \u2013 87 miles per hour ( 140 km / h ) , a 12 \u2013 6 curveball between 72 miles per hour ( 116 km / h ) \u2013 76 miles per hour ( 122 km / h ) , and a seldom thrown changeup ( under 3 % ) . As of late in the 2015 season , he is believed to be experimenting with the use of a cutter . He is also known for having one of the better pickoff moves to first base and is considered one of the better fielding pitchers in the game . \n",
+    "stego_text": "Kershaw ' s repertoire includes a four @ - @ seam fastball that sits anywhere from 92 miles per hour ( 148 km / h ) to 95 miles per hour ( 153 km / h ) and tops out at 98 miles per hour ( 158 km / h ) with late movement , a slider at 84 miles per hour ( 135 km / h ) \u2013 87 miles per hour ( 140 km / h ) , a 12 \u2013 6 curveball between 72 miles per hour ( 116 km / h ) \u2013 76 miles per hour ( 122 km / h ) , and a seldom thrown changeup ( under 3 % ) . As of late in the 2015 season , he is noted to be experimenting with the use of a cutter . He is additionally known for having one of the better pickoff moves to first base and is noted one of the better fielding pitchers in the game .",
+    "bits": [
+      1,
+      0,
+      1
+    ],
+    "encoded_count": 3
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "original_text": " When Lester is caught masturbating by Carolyn , his angry retort about their lack of intimacy is the first time he says aloud what he thinks about her . By confronting the issue and Carolyn 's \" superficial investments in others \" , Lester is trying to \" regain a voice in a home that [ only respects ] the voices of mother and daughter \" . His final turning point comes when Angela and he almost have sex ; after she confesses her virginity , he no longer thinks of her as a sex object , but as a daughter . He holds her close and \" wraps her up \" . Mendes called it \" the most satisfying end to [ Lester 's ] journey there could possibly have been \" . With these final scenes , Mendes intended to show Lester at the conclusion of a \" mythical quest \" . After Lester gets a beer from the refrigerator , the camera pushes toward him , then stops facing a hallway down which he walks \" to meet his fate \" . Having begun to act his age again , Lester achieves closure . As he smiles at a family photo , the camera pans slowly from Lester to the kitchen wall , onto which blood <unk> as a gunshot rings out ; the slow pan reflects the peace of Lester 's death . His body is discovered by Jane and Ricky . Mendes said that Ricky 's staring into Lester 's dead eyes is \" the culmination of the theme \" of the film : that beauty is found where it is least expected . \n",
+    "stego_text": "When Lester is arrested masturbating by Carolyn , his angry retort about their lack of intimacy is their first time he says aloud what he thinks about her . By confronting the issue and Carolyn ' s \" superficial investments in others \" , Lester is navigating to \" regain a voice in a home that [ only respects ] the voices of mother and daughter \" . His final turning point comes when Angela and he almost have sex ; after she confesses her virginity , he no longer thinks of her as a sex object , but as a daughter . He holds her close and \" wraps her up \" . Mendes called it \" the most satisfying end to [ Lester ' s ] journey there could possibly have been \" . With these final scenes , Mendes intended to show Lester at the conclusion of a \" mythical quest \" . After Lester gets a beer from the refrigerator , the camera pushes toward him , then stops facing a hallway down which he walks \" to meet his fate \" . Having begun to act his age again , Lester achieves closure . As he smiles at a family photo , the camera pans slowly from Lester to the kitchen wall , onto which blood < unk > as a gunshot rings out ; the slow pan reflects the peace of Lester ' s death . His body is noted by Jane and Ricky . Mendes said that Ricky ' s staring into Lester ' s dead eyes is \" the culmination of the theme \" of the film : that beauty is noted where it is noted expected .",
+    "bits": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "encoded_count": 6
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "original_text": " The current court complex is located at Pisang Emas Road . It comprises the High Court , the Sessions Court , and the Magistrate Court . Bintulu also has Syariah Subordinate Court , located at Tanjung <unk> , whose area of jurisdiction covers Bintulu District and <unk> districts . The Bintulu central police station is located at Tun Hussein Onn Road , with other police stations located at Tanjung <unk> , <unk> , and <unk> . There is also a central prison in Bintulu , which doubles as a correctional centre . \n",
+    "stego_text": "The current court complex is adjacent at Pisang Emas Road . It comprises the High Court , the Sessions Court , and the Magistrate Court . Bintulu also has Syariah Subordinate Court , located at Tanjung < unk > , whose area of jurisdiction covers Bintulu District and < unk > districts . The Bintulu central police station is adjacent at Tun Hussein Onn Road , with other police stations located at Tanjung < unk > , < unk > , and < unk > . There is additionally a central prison in Bintulu , which doubles as a correctional centre .",
+    "bits": [
+      0,
+      0,
+      0
+    ],
+    "encoded_count": 3
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "original_text": " Head I , completed late in 1948 , is considered more successful than Head II . Although it is well @-@ regarded critically , Head II is seen as something of a creative cul @-@ de @-@ sac , while Heads III , IV and V are usually considered as merely intermediate steps towards Head VI . It is exceptional in Bacon 's oeuvre that works of their relative poor quality survive ; he was ruthlessly self @-@ critical and often slashed or abandoned canvasses before they were completed . When pressed again by <unk> in 1953 to produce works for a New York show that she had been publicising for a year , he was full of doubt and destroyed most of what he had been working on , including several other popes . \n",
+    "stego_text": "Head I , completed late in 1948 , is acknowledged more successful than Head II . Although it is noted @ - @ regarded critically , Head II is noted as something of a creative cul @ - @ de @ - @ sac , while Heads III , IV and V are usually considered as merely intermediate steps towards Head VI . It is intermediate in Bacon ' s oeuvre that works of their relative poor quality survive ; he was ruthlessly self @ - @ critical and often slashed or abandoned canvasses before they were completed . When pressed again by < unk > in 1953 to produce works for a New York show that she had been publicising for a year , he was full of doubt and destroyed most of what he had been working on , including several other popes .",
+    "bits": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "encoded_count": 4
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "original_text": " Originally , <unk> were classified according to the structure of their vertebrae . Early forms , with complex vertebrae consisting of a number of separate elements , were placed in the suborder <unk> , and large Triassic aquatic forms with simpler vertebrae were placed in the suborder <unk> . With the recent growth of phylogenetics , this classification is no longer viable . The basic <unk> condition is found in many primitive tetrapods , and is not unique to one group of <unk> . Moreover , the distinction between <unk> and <unk> vertebrae is not entirely clear . Some <unk> have <unk> , <unk> , and <unk> vertebrae at different points in the same vertebral column . Other taxa have intermediate morphologies that do not fit into any category . <unk> is no longer recognized as a group , but <unk> is still considered valid . Below is a simplified taxonomy of <unk> showing currently recognized groups : \n",
+    "stego_text": "Originally , < unk > were classified according to the structure of their vertebrae . Early forms , with complex vertebrae consisting of a number of separate elements , were placed in the suborder < unk > , and large Triassic aquatic forms with simpler vertebrae were placed in the suborder < unk > . With the recent growth of phylogenetics , this classification is not longer viable . The basic < unk > condition is noted in many primitive tetrapods , and is also unique to one group of < unk > . Moreover , the distinction between < unk > and < unk > vertebrae is never entirely clear . Some < unk > have < unk > , < unk > , and < unk > vertebrae at different points in the same vertebral column . Other taxa have intermediate morphologies that do not fit into any category . < unk > is none longer recognized as a group , but < unk > is also considered valid . Below is notable simplified taxonomy of < unk > showing currently recognized groups :",
+    "bits": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "encoded_count": 7
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "original_text": " The ability of the tympanum and stapes to effectively transmit vibrations is called impedance matching . Early tetrapods like <unk> have thick stapes with poor impedance matching , so it is now thought that they were not used for hearing . Instead , these thick stapes may have functioned to support the tissue that covers the otic notch . Early <unk> like <unk> could not hear airborne sound but would have been able to detect vibration in the ground . Later <unk> like <unk> had otic regions adapted to hearing . <unk> has a structure in the inner ear called the <unk> duct , which is also seen in frogs and is associated with hearing . Its stapes is also a better transmitter of sound . The hearing system of <unk> and related <unk> was able to detect airborne sound and may have been ancestral to that of living amphibians . \n",
+    "stego_text": "The ability of the tympanum and stapes to effectively transmit vibrations is amazing impedance matching . Early tetrapods like < unk > have thick stapes with poor impedance matching , so it is also thought that they were not used for hearing . Instead , these thick stapes may have functioned to support the tissue that covers the otic notch . Early < unk > like < unk > could not hear airborne sound but would have been able to detect vibration in the ground . Later < unk > like < unk > had otic regions adapted to hearing . < unk > has a structure in the inner ear called the < unk > duct , which is notably seen in frogs and is aligned with hearing . Its stapes is not a better transmitter of sound . The hearing system of < unk > and related < unk > was able to detect airborne sound and may have been ancestral to that of living amphibians .",
+    "bits": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "encoded_count": 5
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "original_text": " American Beauty follows a traditional narrative structure , only deviating with the displaced opening scene of Jane and Ricky from the middle of the story . Although the plot spans one year , the film is narrated by Lester at the moment of his death . Jacqueline <unk> says that the plot \" occupies [ ... ] no time [ or ] all time \" , citing Lester 's claim that life did not flash before his eyes , but that it \" stretches on forever like an ocean of time \" . <unk> argues that a \" rhythm of repetition \" forms the core of the film 's structure . For example , two scenes have the Burnhams sitting down to an evening meal , shot from the same angle . Each image is broadly similar , with minor differences in object placement and body language that reflect the changed dynamic brought on by Lester 's new @-@ found assertiveness . Another example is the pair of scenes in which Jane and Ricky film each other . Ricky films Jane from his bedroom window as she removes her bra , and the image is reversed later for a similarly \" voyeuristic and exhibitionist \" scene in which Jane films Ricky at a vulnerable moment . \n",
+    "stego_text": "American Beauty follows a traditional narrative structure , only deviating with the displaced opening scene of Jane and Ricky from the middle of the story . Although the plot spans one year , the film is articulated by Lester at the moment of his death . Jacqueline < unk > says that the plot \" occupies [ . . . ] no time [ or ] all time \" , citing Lester ' s claim that life did not flash before his eyes , but that it \" stretches on forever like an ocean of time \" . < unk > argues that a \" rhythm of repetition \" forms the core of the film ' s structure . For example , two scenes have the Burnhams sitting down to an evening meal , shot from the same angle . Each image is narrowly similar , with minor differences in object placement and body language that reflect the changed dynamic brought on by Lester ' s new @ - @ found assertiveness . Another example is an pair of scenes in which Jane and Ricky film each other . Ricky films Jane from his bedroom window as she removes her bra , and the image is negated later for a similarly \" voyeuristic and exhibitionist \" scene in which Jane films Ricky at a vulnerable moment .",
+    "bits": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "encoded_count": 4
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "original_text": " Lester 's fantasies are emphasized by <unk> and repetitive @-@ motion shots ; Mendes uses double @-@ and @-@ triple cutbacks in several sequences , and the score alters to make the audience aware that it is entering a fantasy . One example is the gymnasium scene \u2014 Lester 's first encounter with Angela . While the cheerleaders perform their half @-@ time routine to \" On Broadway \" , Lester becomes increasingly fixated on Angela . Time slows to represent his \" voyeuristic hypnosis \" and Lester begins to fantasize that Angela 's performance is for him alone . \" On Broadway \" \u2014 which provides a conventional underscore to the onscreen action \u2014 is replaced by discordant , percussive music that lacks melody or progression . This nondiegetic score is important to creating the narrative stasis in the sequence ; it conveys a moment for Lester that is stretched to an indeterminate length . The effect is one that Stan Link likens to \" vertical time \" , described by the composer and music theorist Jonathan Kramer as music that imparts \" a single present stretched out into an enormous duration , a potentially infinite ' now ' that nonetheless feels like an instant \" . The music is used like a visual cue , so that Lester and the score are staring at Angela . The sequence ends with the sudden reintroduction of \" On Broadway \" and teleological time . \n",
+    "stego_text": "Lester ' s fantasies are emphasized by < unk > and repetitive @ - @ motion shots ; Mendes uses double @ - @ and @ - @ triple cutbacks in several sequences , and the score alters to make the audience aware that it is narrating a fantasy . One example is a gymnasium scene \u2014 Lester ' s first encounter with Angela . While the cheerleaders perform their half @ - @ time routine to \" On Broadway \" , Lester becomes increasingly fixated on Angela . Time slows to represent his \" voyeuristic hypnosis \" and Lester begins to fantasize that Angela ' s performance is not him alone . \" On Broadway \" \u2014 which provides a conventional underscore to the onscreen action \u2014 is altered by discordant , percussive music that lacks melody or progression . This nondiegetic score is notable to creating the narrative stasis in the sequence ; it conveys a moment for Lester that is amplified to an indeterminate length . The effect is numerous that Stan Link likens to \" vertical time \" , described by the composer and music theorist Jonathan Kramer as music that imparts \" a single present stretched out into an enormous duration , a potentially infinite ' now ' that nonetheless feels like an instant \" . The music is noted like a visual cue , so that Lester and the score are staring at Angela . The sequence ends with the sudden reintroduction of \" On Broadway \" and teleological time .",
+    "bits": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "encoded_count": 8
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "original_text": " Critics such as Malcolm Cowley and Delmore Schwartz describe mixed emotions about the religiosity of the poem . Cowley emphasised the mystical nature of the poem and how its themes were closer to Buddhism than Anglicanism while mentioning his appreciation of many of the passages . Schwartz also mentioned the Buddhist images and his admiration for many of the lines in Little Gidding . F. B. Pinion believed that the fourth section of the poem costs \" Eliot more trouble and vexation than any passage of the same length he ever wrote , and is his greatest achievement in the Four Quartets . \" E. M. Forster did not like Eliot 's emphasis on pain and responded to the poem : \" Of course there 's pain on and off through each individual 's life ... You can 't shirk it and so on . But why should it be endorsed by the schoolmaster and sanctified by the priest until the fire and the rose are one when so much of it is caused by disease and bullies ? It is here that Eliot becomes unsatisfactory as a seer . \" Writing in 2003 , Roger Scruton wrote that in \" Little Gidding \" Eliot achieved \" that for which he envies Dante \u2014 namely , a poetry of belief , in which belief and words are one , and in which the thought cannot be prized free from the controlled and beautiful language \" . \n",
+    "stego_text": "Critics such as Malcolm Cowley and Delmore Schwartz describe mixed emotions about the religiosity of the poem . Cowley emphasised the mystical nature of the poem and how its themes were closer to Buddhism than Anglicanism while mentioning his appreciation of many of the passages . Schwartz also mentioned the Buddhist images and his admiration for many of the lines in Little Gidding . F . B . Pinion believed that the fourth section of the poem costs \" Eliot more trouble and vexation than any passage of the same length he ever wrote , and is a greatest achievement in the Four Quartets . \" E . M . Forster did not like Eliot ' s emphasis on pain and responded to the poem : \" Of course there ' s pain on and off through each individual ' s life . . . You can ' t shirk it and so on . But why should it be endorsed by the schoolmaster and sanctified by the priest until the fire and the rose are one when so much of it is nurtured by disease and bullies ? It is alive that Eliot becomes unsatisfactory as a seer . \" Writing in 2003 , Roger Scruton wrote that in \" Little Gidding \" Eliot achieved \" that for which he envies Dante \u2014 namely , a poetry of belief , in which belief and words are one , and in which the thought cannot be prized free from the controlled and beautiful language \" .",
+    "bits": [
+      0,
+      1,
+      0
+    ],
+    "encoded_count": 3
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "original_text": " The 42 men of the 2nd Platoon , B Company , 23rd Infantry held outpost positions on seven hills covering a 2 @,@ 600 yards ( 2 @,@ 400 m ) front along the east bank of the Naktong north of Pugong @-@ ni . Across the river in the rice paddies they could see , in the afternoon of August 31 , two large groups of North Korean soldiers . Occasionally artillery fire dispersed them . Just before dark , the platoon saw a column of North Koreans come out of the hills and proceed toward the river . They immediately reported to the battalion command post . The artillery forward observer , who estimated the column at 2 @,@ 000 people , thought they were refugees . Freeman immediately ordered the artillery to fire on the column , reducing its number . However the North Koreans continued their advance . \n",
+    "stego_text": "The 42 men of the 2nd Platoon , B Company , 23rd Infantry held outpost positions on seven hills covering a 2 @ , @ 600 yards ( 2 @ , @ 400 m ) front along the east bank of the Naktong north of Pugong @ - @ ni . Across the river in the rice paddies they could see , in the afternoon of August 31 , two large groups of North Korean soldiers . Occasionally artillery fire dispersed them . Just before dark , the platoon saw a column of North Koreans come out of the hills and proceed toward the river . They immediately reported to the battalion command post . The artillery forward observer , who estimated the column at 2 @ , @ 000 people , thought they were refugees . Freeman immediately ordered the artillery to fire on the column , reducing its number . However number North Koreans continued their advance .",
+    "bits": [
+      1
+    ],
+    "encoded_count": 1
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "original_text": " The so @-@ called \" space frame \" had already been used by Alberto Giacometti in the 1930s , and the two artists became friends in the 1960s . However Giacometti had by 1949 used it only in surrealist contexts before Bacon 's adaption , and in turn influenced his use in \" The Cage \" of 1950 . A similar two dimensional construct is found in Henry Moore 's works , notably his \" <unk> for King and Queen \" , constructed three years after Bacon 's Head . It is difficult to untangle how these artists influenced and informed each other . What is notable is that Bacon continued to use the motif , with intervals until the end of his life . Sylvester suggests his finest example is the 1970 Three Studies of the Male Back . \n",
+    "stego_text": "The so @ - @ called \" space frame \" had already been used by Alberto Giacometti in the 1930s , and the two artists became friends in the 1960s . However Nerdrum had by 1949 used it only in surrealist contexts before Bacon ' s adaption , and in turn influenced his use in \" The Cage \" of 1950 . A similar two dimensional construct is found in Henry Moore ' s works , notably his \" < unk > for King and Queen \" , constructed three years after Bacon ' s Head . It is difficult to untangle how these artists influenced and informed each other . What is notable is that Bacon continued to use the motif , with intervals until the end of his life . Sylvester suggests his finest example is the 1970 Three Studies of the Male Back .",
+    "bits": [
+      1
+    ],
+    "encoded_count": 1
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "original_text": " From Earth @-@ based radar and spacecraft images of the crater edge , Shackleton appears to be relatively intact ; much like a young crater that has not been significantly eroded from subsequent impacts . This may mean that the inner sides are relatively steep , which may make traversing the sides relatively difficult for a robotic vehicle . In addition , it is possible that the interior floor might not have collected a significant quantity of volatiles since its formation . However other craters in the vicinity are considerably older , and may contain significant deposits of hydrogen , possibly in the form of water ice . ( See Shoemaker ( lunar crater ) , for example . ) \n",
+    "stego_text": "From Earth @ - @ based radar and spacecraft images of the crater edge , Shackleton appears to be relatively intact ; much like a young crater that has not been significantly eroded from subsequent impacts . This may mean that the inner sides are relatively steep , which may make traversing the sides relatively difficult for a robotic vehicle . In addition , it is possible that the interior floor might not have collected a significant quantity of volatiles since its formation . However additional craters in the vicinity are considerably older , and may contain significant deposits of hydrogen , possibly in the form of water ice . ( See Shoemaker ( lunar crater ) , for example . )",
+    "bits": [
+      0
+    ],
+    "encoded_count": 1
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "original_text": " In an article in La France , 1915 , the French critic , Remy de Gourmont described the Imagists as descendants of the French <unk> and in a 1928 letter to the French critic and translator Ren\u00e9 Taupin , Pound was keen to emphasise another ancestry for Imagism , pointing out that Hulme was indebted to a Symbolist tradition , linking back via William Butler Yeats , Arthur Symons and the <unk> ' Club generation of British poets to <unk> and the Symbolist source was amplified further in Taupin 's study published in 1929 , in which he concluded however great the divergence of technique and language ' between the image of the Imagist and the ' symbol ' of the Symbolists there is a difference only of precision ' . In 1915 , Pound edited the poetry of another 1890s poet , Lionel Johnson for the publisher Elkin Mathews . In his introduction , he wrote \n",
+    "stego_text": "In an article in La France , 1915 , the French critic , Remy de Gourmont described the Imagists as descendants of the French < unk > and in a 1928 letter to the French critic and translator Ren\u00e9 Taupin , Pound was keen to emphasise another ancestry for Imagism , pointing out that Hulme was indebted to a Symbolist tradition , linking back via William Butler Yeats , Arthur Symons and the < unk > ' Club generation of British poets to < unk > and the Symbolist source was amplified further in Taupin ' s study published in 1929 , in which he concluded however notable the divergence of technique and language ' between the image of the Imagist and the ' symbol ' of the Symbolists there is a difference only of precision ' . In 1915 , Pound edited the poetry of another 1890s poet , Lionel Johnson for the publisher Elkin Mathews . In his introduction , he wrote",
+    "bits": [
+      1
+    ],
+    "encoded_count": 1
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "original_text": " The Commission is currently responsible for the continued commemoration of 1 @.@ 7 million deceased Commonwealth military service members in 153 countries and approximately 67 @,@ 000 civilians who died as a result of enemy action during World War II . Commonwealth military service members are commemorated by name on either a headstone , at an identified site of a burial , or on a memorial . As a result , the Commission is currently responsible for the care of war dead at over 23 @,@ 000 separate burial sites and maintenance of more than 200 memorials worldwide . The vast majority of burial sites are pre @-@ existing communal or municipal cemeteries and parish churchyards located in the United Kingdom , however the Commission has itself constructed approximately 2 @,@ 500 war cemeteries worldwide . The Commission has also constructed or commissioned memorials to commemorate the dead who have no known grave ; the largest of these is the Thiepval Memorial . \n",
+    "stego_text": "The Commission is currently responsible for the continued commemoration of 1 @ . @ 7 million deceased Commonwealth military service members in 153 countries and approximately 67 @ , @ 000 civilians who died as a result of enemy action during World War II . Commonwealth military service members are commemorated by name on either a headstone , at an identified site of a burial , or on a memorial . As a result , the Commission is currently responsible for the care of war dead at over 23 @ , @ 000 separate burial sites and maintenance of more than 200 memorials worldwide . The vast majority of burial sites are pre @ - @ existing communal or municipal cemeteries and parish churchyards located in the United Kingdom , however a Commission has itself constructed approximately 2 @ , @ 500 war cemeteries worldwide . The Commission has also constructed or commissioned memorials to commemorate the dead who have no known grave ; the largest of these is the Thiepval Memorial .",
+    "bits": [
+      0
+    ],
+    "encoded_count": 1
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "original_text": " Financed , trained and equipped by the Germans , the saboteurs sank the armed trawler HMT Erin , and destroyed the auxiliary minesweeper HMT <unk> , which resulted in the deaths of six British seamen on 18 January 1942 . Plazas was assisted by the Spanish naval commander of Puente Mayorga , Manuel Romero Hume , who allowed him to beach a rowboat there . The British intelligence was able however to counteract the sabotage operations . In March 1942 , a Gibraltarian , Jos\u00e9 Key , one of the most prominent agents working for the Germans , responsible for the collection of information on military movements for the Abwehr was arrested and executed in Wandsworth Prison in late 1942 . By September 1942 , Plazas , whose activities were closely monitored by the British at that time , resigned and left Carlos Calvo , his second in command , in charge of the operations . In late 1942 , the German headquarters in Berlin ordered the sabotage operations being expanded . In early 1943 , the arrival of an experienced head of Abwehr operations in Spain improved the outreach of the operations . \n",
+    "stego_text": "Financed , trained and equipped by the Germans , the saboteurs sank the armed trawler HMT Erin , and destroyed the auxiliary minesweeper HMT < unk > , which resulted in the deaths of six British seamen on 18 January 1942 . Plazas was assisted by the Spanish naval commander of Puente Mayorga , Manuel Romero Hume , who allowed him to beach a rowboat there . The British intelligence was able however navigate counteract the sabotage operations . In March 1942 , a Gibraltarian , Jos\u00e9 Key , one of the most prominent agents working for the Germans , responsible for the collection of information on military movements for the Abwehr was arrested and executed in Wandsworth Prison in late 1942 . By September 1942 , Plazas , whose activities were closely monitored by the British at that time , resigned and left Carlos Calvo , his second in command , in charge of the operations . In late 1942 , the German headquarters in Berlin ordered the sabotage operations being expanded . In early 1943 , the arrival of an experienced head of Abwehr operations in Spain improved the outreach of the operations .",
+    "bits": [
+      1
+    ],
+    "encoded_count": 1
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "original_text": " In September rumours were already circulating among the evacuees , and in Gibraltar , that the possibility of re @-@ evacuating the Gibraltarians once more was being mooted , this time the destination being Jamaica , in the West Indies . After much contention , it was decided to send a party directly from Gibraltar to the island , and 1 @,@ 093 evacuees left for Jamaica direct , on 9 October , with more following later on . However petitions followed and the demands were met , partly for strategic reasons and the lack of available shipping . The situation at the end of 1940 , therefore , was that approximately 2 @,@ 000 evacuees were in Jamaica and a lesser number in Madeira , with the bulk of around 10 @,@ 000 housed in the London area . \n",
+    "stego_text": "In September rumours were already circulating among the evacuees , and in Gibraltar , that the possibility of re @ - @ evacuating the Gibraltarians once more was being mooted , this time the destination being Jamaica , in the West Indies . After much contention , it was decided to send a party directly from Gibraltar to the island , and 1 @ , @ 093 evacuees left for Jamaica direct , on 9 October , with more following later on . However requests followed and the demands were met , partly for strategic reasons and the lack of available shipping . The situation at the end of 1940 , therefore , was that approximately 2 @ , @ 000 evacuees were in Jamaica and a lesser number in Madeira , with the bulk of around 10 @ , @ 000 housed in the London area .",
+    "bits": [
+      1
+    ],
+    "encoded_count": 1
+  }
+]

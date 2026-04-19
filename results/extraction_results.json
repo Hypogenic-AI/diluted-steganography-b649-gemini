@@ -1,0 +1,746 @@
+[
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "true_bits": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "extracted_bits": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "true_bits": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "extracted_bits": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "true_bits": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "extracted_bits": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "true_bits": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "extracted_bits": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "true_bits": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "extracted_bits": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "true_bits": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "extracted_bits": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "true_bits": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "extracted_bits": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "true_bits": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "extracted_bits": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "true_bits": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    "extracted_bits": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "true_bits": [
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "extracted_bits": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "true_bits": [
+      1,
+      0,
+      1
+    ],
+    "extracted_bits": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "true_bits": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "extracted_bits": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "true_bits": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "extracted_bits": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "true_bits": [
+      0,
+      1,
+      1
+    ],
+    "extracted_bits": [
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "true_bits": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "extracted_bits": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "true_bits": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "extracted_bits": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "true_bits": [
+      1,
+      0,
+      1
+    ],
+    "extracted_bits": [
+      1,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "true_bits": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "extracted_bits": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "true_bits": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "extracted_bits": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "true_bits": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "extracted_bits": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "true_bits": [
+      0,
+      1,
+      0
+    ],
+    "extracted_bits": [
+      1,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "true_bits": [
+      1,
+      0,
+      1
+    ],
+    "extracted_bits": [
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "true_bits": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "extracted_bits": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "true_bits": [
+      0,
+      0,
+      0
+    ],
+    "extracted_bits": [
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "true_bits": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "extracted_bits": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "true_bits": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "extracted_bits": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "true_bits": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "extracted_bits": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "true_bits": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "extracted_bits": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "true_bits": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "extracted_bits": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "true_bits": [
+      0,
+      1,
+      0
+    ],
+    "extracted_bits": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "true_bits": [
+      1
+    ],
+    "extracted_bits": [
+      1
+    ]
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "true_bits": [
+      1
+    ],
+    "extracted_bits": [
+      1
+    ]
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "true_bits": [
+      0
+    ],
+    "extracted_bits": [
+      1
+    ]
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "true_bits": [
+      1
+    ],
+    "extracted_bits": [
+      1,
+      1
+    ]
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "true_bits": [
+      0
+    ],
+    "extracted_bits": [
+      1
+    ]
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "true_bits": [
+      1
+    ],
+    "extracted_bits": [
+      1,
+      0
+    ]
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "true_bits": [
+      1
+    ],
+    "extracted_bits": [
+      1,
+      0
+    ]
+  }
+]

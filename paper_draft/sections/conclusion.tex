@@ -1,0 +1,6 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+In this work, we introduced \ours, a framework for evaluating the impact of signal dilution on the detection and extraction of steganographic messages in LLM-generated text. Our empirical results with \gpt demonstrate that diluted steganography is effectively invisible to zero-shot detection across a wide range of signal densities, from 0.076\% to 7.8\% of tokens. While extraction is possible for sparse, short sequences, it fails as the signal density and sequence length increase, identifying "sequence complexity" as a primary bottleneck for automated LLM-based forensics.
+
+Our findings highlight a critical vulnerability in current forensic capabilities and suggest that sparsity, when combined with high-quality generative rewriting, provides a robust defense against automated detection. Future research should explore the effectiveness of mechanistic interpretability and specialized detection probes in identifying these "diluted" signals, as well as the impact of more complex, multi-token encoding rules on both stealth and recoverability.

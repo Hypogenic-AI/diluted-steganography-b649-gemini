@@ -1,0 +1,520 @@
+[
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No"
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No"
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Dense",
+    "trigger": "the",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Medium",
+    "trigger": "of",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No"
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Sparse",
+    "trigger": "is",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No"
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "text_type": "original",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  },
+  {
+    "level": "Very_Sparse",
+    "trigger": "however",
+    "text_type": "stego",
+    "ans_zs": "No.",
+    "ans_hint": "No."
+  }
+]
