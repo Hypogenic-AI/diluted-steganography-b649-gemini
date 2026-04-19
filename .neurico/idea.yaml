@@ -1,0 +1,29 @@
+idea:
+  title: Diluted Steganography
+  domain: nlp
+  hypothesis: 'Investigate how current large language models handle signal dilution
+    in steganographic contexts, specifically when secret messages are hidden in more
+    diluted patterns (e.g., the word after each use of a specific token), and whether
+    their ability to detect or extract such messages degrades as the signal becomes
+    more diluted.
+
+    '
+  background:
+    description: 'As data generation becomes cheaper and more prolific, the dilution
+      of meaningful signals within large corpora is likely to become a significant
+      issue. Current LLMs can detect simple steganographic signals, such as messages
+      hidden in the first letter of each line, when prompted. This research explores
+      how LLMs perform when the signal is more diluted, such as hiding messages in
+      the word following each occurrence of a specific word, and seeks to understand
+      the limits of LLMs'' ability to detect or extract such diluted signals.
+
+      '
+  metadata:
+    author: Ari Holtzman
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/S8TIDAdqCMWSFklZugeh
+    idea_id: diluted_steganography_20260419_214501_384b7255
+    created_at: '2026-04-19T21:45:01.241362'
+    status: submitted
+    github_repo_name: diluted-steganography-b649-gemini
+    github_repo_url: https://github.com/Hypogenic-AI/diluted-steganography-b649-gemini
